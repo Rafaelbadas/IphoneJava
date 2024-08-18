@@ -10,7 +10,7 @@ title: Animal example
       B-->D;
       C-->D;
 ```
-
+```mermaid
 ---
 classDiagram
     note "From Duck till Zebra"
@@ -35,3 +35,4 @@ classDiagram
         +bool is_wild
         +run()
     }
+```

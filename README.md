@@ -1,15 +1,6 @@
 # IphoneJava
 Uml e java de um projeto sobre iphone
----
-title: Animal example
 
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
 ```mermaid
 ---
 title: Projeto Iphone UML

@@ -3,7 +3,14 @@ Uml e java de um projeto sobre iphone
 ---
 title: Animal example
 
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
 ```
+
 ---
 classDiagram
     note "From Duck till Zebra"
@@ -28,4 +35,3 @@ classDiagram
         +bool is_wild
         +run()
     }
-```

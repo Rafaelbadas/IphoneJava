@@ -12,6 +12,8 @@ title: Animal example
 ```
 ```mermaid
 ---
+title: Animal example
+---
 classDiagram
     note "From Duck till Zebra"
     Animal <|-- Duck

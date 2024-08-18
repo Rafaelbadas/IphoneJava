@@ -12,29 +12,28 @@ title: Animal example
 ```
 ```mermaid
 ---
-title: Animal example
+title: Projeto Iphone UML
 ---
 classDiagram
-    note "From Duck till Zebra"
-    Animal <|-- Duck
-    note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
-    Animal <|-- Fish
-    Animal <|-- Zebra
-    Animal : +int age
-    Animal : +String gender
-    Animal: +isMammal()
-    Animal: +mate()
-    class Duck{
-        +String beakColor
-        +swim()
-        +quack()
+    class ReprodutorMusical {
+        +exemploMetodo1()
+        +exemploMetodo2(String exemplo)
     }
-    class Fish{
-        -int sizeInFeet
-        -canEat()
+
+    class AparelhoTelefonico {
+        +exemploMetodo1()
+        +exemploMetodo2(String exemplo)
     }
-    class Zebra{
-        +bool is_wild
-        +run()
+
+    class NavegadorInternet {
+        +exemploMetodo1()
+        +exemploMetodo2(String exemplo)
     }
+
+    class iPhone {
+    }
+
+    iPhone --> ReprodutorMusical
+    iPhone --> AparelhoTelefonico
+    iPhone --> NavegadorInternet
 ```
